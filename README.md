@@ -1,23 +1,3 @@
-# リアル Buckshot Roulette プロジェクト
+# .github
 
-## 概要
-
-ビデオゲーム「Buckshot Roulette」を現実世界で再現するための、ハードウェアとソフトウェアを組み合わせたプロジェクトです。
-
-## プロジェクト構成
-
-### ソフトウェア
-
-- **メイン PC**: ゲーム管理 (`Python` + `PyQt`)
-- **ショットガン**: 動作検知、フィードバック (`PlatformIO` / `C++`)
-- **タブレットアプリ**: プレイヤー用 UI (`PWA` / `React`)
-- **ウェブサイト**: イベント告知、結果表示 (`Astro` / `Netlify` / `Firebase`)
-- **LED ライフ表示**: プレイヤーライフ表示 (`Arduino Nano`)
-
-### ハードウェア
-
-- **ショットガン**: `ESP32`をコアとし、各種センサー、モーター、スピーカー、液晶を内蔵。
-- **LED ライフ表示**: `Arduino Nano` と LED で構成。
-- **ネットワーク**: `Wi-Fi`と`USBシリアル`を主要な通信手段として使用。
-
-詳細はプライベートリポジトリ `docs` を参照してください。
+This directory contains GitHub-specific files for the Buckshot Roulette project.
